@@ -68,9 +68,10 @@ int main(int argc, char* argv[]) {
         //*******************************************************************
 
         begin = clock();
-
+        int size = greedy_classical(graph);
         end = clock();
 
+        cout << "value:" << size << endl;
         //cout << "Solution: " << "\t" << solution3.getCost() << "\t";
         elapsed_secs = double(end - begin);
         cout << "Time:" << elapsed_secs*1.0/CLOCKS_PER_SEC << endl;
