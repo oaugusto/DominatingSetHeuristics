@@ -1,0 +1,8 @@
+//
+// Created by oaugusto on 08/11/18.
+//
+
+#ifndef DOMINATINGSET_ALGORITHMS_H
+#define DOMINATINGSET_ALGORITHMS_H
+
+#endif //DOMINATINGSET_ALGORITHMS_H

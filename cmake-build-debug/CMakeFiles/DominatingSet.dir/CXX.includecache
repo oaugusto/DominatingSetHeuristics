@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oaugusto/Workspace/DominatingSet/include/Algorithms.h
+
+/home/oaugusto/Workspace/DominatingSet/src/Algorithms.cpp
+../include/Algorithms.h
+/home/oaugusto/Workspace/DominatingSet/include/Algorithms.h
+
