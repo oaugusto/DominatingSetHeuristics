@@ -204,6 +204,60 @@ src/Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/Graph.cpp.s
 .PHONY : src/Graph.cpp.s
 
+src/Neighborhood.o: src/Neighborhood.cpp.o
+
+.PHONY : src/Neighborhood.o
+
+# target to build an object file
+src/Neighborhood.cpp.o:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.o
+.PHONY : src/Neighborhood.cpp.o
+
+src/Neighborhood.i: src/Neighborhood.cpp.i
+
+.PHONY : src/Neighborhood.i
+
+# target to preprocess a source file
+src/Neighborhood.cpp.i:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.i
+.PHONY : src/Neighborhood.cpp.i
+
+src/Neighborhood.s: src/Neighborhood.cpp.s
+
+.PHONY : src/Neighborhood.s
+
+# target to generate assembly for a file
+src/Neighborhood.cpp.s:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.s
+.PHONY : src/Neighborhood.cpp.s
+
+src/VertexSet.o: src/VertexSet.cpp.o
+
+.PHONY : src/VertexSet.o
+
+# target to build an object file
+src/VertexSet.cpp.o:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.o
+.PHONY : src/VertexSet.cpp.o
+
+src/VertexSet.i: src/VertexSet.cpp.i
+
+.PHONY : src/VertexSet.i
+
+# target to preprocess a source file
+src/VertexSet.cpp.i:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.i
+.PHONY : src/VertexSet.cpp.i
+
+src/VertexSet.s: src/VertexSet.cpp.s
+
+.PHONY : src/VertexSet.s
+
+# target to generate assembly for a file
+src/VertexSet.cpp.s:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.s
+.PHONY : src/VertexSet.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +276,12 @@ help:
 	@echo "... src/Graph.o"
 	@echo "... src/Graph.i"
 	@echo "... src/Graph.s"
+	@echo "... src/Neighborhood.o"
+	@echo "... src/Neighborhood.i"
+	@echo "... src/Neighborhood.s"
+	@echo "... src/VertexSet.o"
+	@echo "... src/VertexSet.i"
+	@echo "... src/VertexSet.s"
 .PHONY : help
 
 

@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Algorithms.h
-Graph.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
-Types.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
-vector
--
-queue
--
-algorithm
--
-functional
--
-random
--
-cstdlib
--
-chrono
--
-
 /home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
 string
 -
@@ -52,9 +32,25 @@ Types.h
 Edge.h
 /home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
 
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Neighborhood.h
+VertexSet.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/VertexSet.h
+vector
+-
+
 /home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
 
-/home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp
-../include/Algorithms.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Algorithms.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/VertexSet.h
+Graph.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
+algorithm
+-
+random
+-
+chrono
+-
+
+/home/oaugusto/workspace/DominatingSetHeuristics/src/Neighborhood.cpp
+../include/Neighborhood.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Neighborhood.h
 

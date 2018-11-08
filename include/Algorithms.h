@@ -7,6 +7,8 @@
 
 #include "Graph.h"
 #include "Types.h"
+#include "VertexSet.h"
+#include "Neighborhood.h"
 #include <vector>
 #include <queue>
 #include <algorithm>
@@ -45,7 +47,7 @@ int naive_algorithm(Graph* graph);
  * @param graph
  * @return
  */
-int greedy_classical(Graph* graph);
+VertexSet greedy_classical(Graph* graph);
 
 /**
  *

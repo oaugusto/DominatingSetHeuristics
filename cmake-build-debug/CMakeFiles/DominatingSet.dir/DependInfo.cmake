@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/oaugusto/workspace/DominatingSetHeuristics/main.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/main.cpp.o"
   "/home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
   "/home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
+  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Neighborhood.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.o"
+  "/home/oaugusto/workspace/DominatingSetHeuristics/src/VertexSet.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

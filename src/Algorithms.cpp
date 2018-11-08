@@ -14,22 +14,6 @@ v_T degree(Graph* graph, v_T source) {
     return i;
 }
 
-bool isDominatingSet(Graph* graph, vector<int>* ds) {
-    for (int i = 0; i < graph->get_num_v(); i++) {
-        if (ds->at(i) == 0) {
-            bool covered = false;
-            for (auto it = graph->begin(i); it != graph->end(i); it++) {
-                if (ds->at((*it).get_dest()) != 0) {
-                    covered = true;
-                }
-            }
-            if (!covered) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
 
 struct vertex {
     v_T id;
@@ -97,11 +81,10 @@ void adjustWeights(Graph *graph, vector<vertex> *weight, v_T v) {
     (*v_i).covered = true;
 }
 
-int greedy_classical(Graph *graph) {
+VertexSet greedy_classical(Graph *graph) {
 
-    vector<int> D(graph->get_num_v(), 0);
+    VertexSet D(graph);
     vector<vertex> weight;
-    int size = 0;
 
     for (v_T i = 0; i < graph->get_num_v(); i++) {
         weight.push_back(vertex(i, degree(graph, i) + 1, false));
@@ -110,16 +93,16 @@ int greedy_classical(Graph *graph) {
     v_T vtx = 0;
 
     while ((vtx = chooseVertex(&weight)) != -1) {
-        D[vtx] = 1;
+        D.setVertexDominating(vtx);
         adjustWeights(graph, &weight, vtx);
-        size++;
     }
 
-    if (isDominatingSet(graph, &D)) {
+    if (D.isDominatingSet()) {
         cout << "dominanting set" << endl;
     } else {
         cout << "wrong set" << endl;
     }
 
-    return size;
+    return D;
 }
+

@@ -93,7 +93,13 @@
 		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h">
 			<Option target="DominatingSet"/>
 		</Unit>
+		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/include/Neighborhood.h">
+			<Option target="DominatingSet"/>
+		</Unit>
 		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h">
+			<Option target="DominatingSet"/>
+		</Unit>
+		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/include/VertexSet.h">
 			<Option target="DominatingSet"/>
 		</Unit>
 		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/main.cpp">
@@ -103,6 +109,12 @@
 			<Option target="DominatingSet"/>
 		</Unit>
 		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp">
+			<Option target="DominatingSet"/>
+		</Unit>
+		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/src/Neighborhood.cpp">
+			<Option target="DominatingSet"/>
+		</Unit>
+		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/src/VertexSet.cpp">
 			<Option target="DominatingSet"/>
 		</Unit>
 		<Unit filename="/home/oaugusto/workspace/DominatingSetHeuristics/CMakeLists.txt">
