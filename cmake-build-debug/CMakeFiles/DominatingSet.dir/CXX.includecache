@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/oaugusto/Workspace/DominatingSet/include/Algorithms.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Algorithms.h
 Graph.h
-/home/oaugusto/Workspace/DominatingSet/include/Graph.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
 Types.h
-/home/oaugusto/Workspace/DominatingSet/include/Types.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
 vector
 -
 queue
@@ -26,13 +26,13 @@ cstdlib
 chrono
 -
 
-/home/oaugusto/Workspace/DominatingSet/include/Edge.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
 string
 -
 Types.h
-/home/oaugusto/Workspace/DominatingSet/include/Types.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
 
-/home/oaugusto/Workspace/DominatingSet/include/Graph.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
 vector
 -
 list
@@ -48,31 +48,13 @@ iostream
 sstream
 -
 Types.h
-/home/oaugusto/Workspace/DominatingSet/include/Types.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
 Edge.h
-/home/oaugusto/Workspace/DominatingSet/include/Edge.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
 
-/home/oaugusto/Workspace/DominatingSet/include/Types.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
 
-/home/oaugusto/Workspace/DominatingSet/main.cpp
-iostream
--
-fstream
--
-vector
--
-ctime
--
-dirent.h
--
-cstring
--
-memory
--
-algorithm
--
-include/Graph.h
-/home/oaugusto/Workspace/DominatingSet/include/Graph.h
-include/Algorithms.h
-/home/oaugusto/Workspace/DominatingSet/include/Algorithms.h
+/home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp
+../include/Algorithms.h
+/home/oaugusto/workspace/DominatingSetHeuristics/include/Algorithms.h
 

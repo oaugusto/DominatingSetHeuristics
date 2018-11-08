@@ -45,21 +45,21 @@ int naive_algorithm(Graph* graph);
  * @param graph
  * @return
  */
-unsigned long greedy_classical(Graph* graph);
+int greedy_classical(Graph* graph);
 
 /**
  *
  * @param graph
  * @return
  */
-unsigned long greedy_reverse(Graph* graph);
+int greedy_reverse(Graph* graph);
 
 /**
  *
  * @param graph
  * @return
  */
-unsigned long greedy_ran(Graph* graph);
+int greedy_ran(Graph* graph);
 
 /**
  *

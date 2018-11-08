@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oaugusto/Workspace/DominatingSet/main.cpp" "/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles/DominatingSet.dir/main.cpp.o"
-  "/home/oaugusto/Workspace/DominatingSet/src/Algorithms.cpp" "/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
-  "/home/oaugusto/Workspace/DominatingSet/src/Graph.cpp" "/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
+  "/home/oaugusto/workspace/DominatingSetHeuristics/main.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/main.cpp.o"
+  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
+  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

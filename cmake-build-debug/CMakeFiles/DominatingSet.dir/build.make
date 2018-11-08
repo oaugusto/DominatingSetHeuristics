@@ -43,10 +43,10 @@ RM = /opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oaugusto/Workspace/DominatingSet
+CMAKE_SOURCE_DIR = /home/oaugusto/workspace/DominatingSetHeuristics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oaugusto/Workspace/DominatingSet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DominatingSet.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/DominatingSet.dir/flags.make
 
 CMakeFiles/DominatingSet.dir/main.cpp.o: CMakeFiles/DominatingSet.dir/flags.make
 CMakeFiles/DominatingSet.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DominatingSet.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/main.cpp.o -c /home/oaugusto/Workspace/DominatingSet/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DominatingSet.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/main.cpp.o -c /home/oaugusto/workspace/DominatingSetHeuristics/main.cpp
 
 CMakeFiles/DominatingSet.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DominatingSet.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/Workspace/DominatingSet/main.cpp > CMakeFiles/DominatingSet.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/workspace/DominatingSetHeuristics/main.cpp > CMakeFiles/DominatingSet.dir/main.cpp.i
 
 CMakeFiles/DominatingSet.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DominatingSet.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/Workspace/DominatingSet/main.cpp -o CMakeFiles/DominatingSet.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/workspace/DominatingSetHeuristics/main.cpp -o CMakeFiles/DominatingSet.dir/main.cpp.s
 
 CMakeFiles/DominatingSet.dir/src/Graph.cpp.o: CMakeFiles/DominatingSet.dir/flags.make
 CMakeFiles/DominatingSet.dir/src/Graph.cpp.o: ../src/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/src/Graph.cpp.o -c /home/oaugusto/Workspace/DominatingSet/src/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/src/Graph.cpp.o -c /home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp
 
 CMakeFiles/DominatingSet.dir/src/Graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DominatingSet.dir/src/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/Workspace/DominatingSet/src/Graph.cpp > CMakeFiles/DominatingSet.dir/src/Graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp > CMakeFiles/DominatingSet.dir/src/Graph.cpp.i
 
 CMakeFiles/DominatingSet.dir/src/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DominatingSet.dir/src/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/Workspace/DominatingSet/src/Graph.cpp -o CMakeFiles/DominatingSet.dir/src/Graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp -o CMakeFiles/DominatingSet.dir/src/Graph.cpp.s
 
 CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o: CMakeFiles/DominatingSet.dir/flags.make
 CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o: ../src/Algorithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o -c /home/oaugusto/Workspace/DominatingSet/src/Algorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o -c /home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp
 
 CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/Workspace/DominatingSet/src/Algorithms.cpp > CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp > CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.i
 
 CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/Workspace/DominatingSet/src/Algorithms.cpp -o CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp -o CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.s
 
 # Object files for target DominatingSet
 DominatingSet_OBJECTS = \
@@ -110,7 +110,7 @@ DominatingSet: CMakeFiles/DominatingSet.dir/src/Graph.cpp.o
 DominatingSet: CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o
 DominatingSet: CMakeFiles/DominatingSet.dir/build.make
 DominatingSet: CMakeFiles/DominatingSet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DominatingSet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DominatingSet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DominatingSet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/DominatingSet.dir/clean:
 .PHONY : CMakeFiles/DominatingSet.dir/clean
 
 CMakeFiles/DominatingSet.dir/depend:
-	cd /home/oaugusto/Workspace/DominatingSet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oaugusto/Workspace/DominatingSet /home/oaugusto/Workspace/DominatingSet /home/oaugusto/Workspace/DominatingSet/cmake-build-debug /home/oaugusto/Workspace/DominatingSet/cmake-build-debug /home/oaugusto/Workspace/DominatingSet/cmake-build-debug/CMakeFiles/DominatingSet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oaugusto/workspace/DominatingSetHeuristics /home/oaugusto/workspace/DominatingSetHeuristics /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DominatingSet.dir/depend
 
