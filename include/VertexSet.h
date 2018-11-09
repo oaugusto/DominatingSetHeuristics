@@ -52,6 +52,8 @@ public:
 
     void unsetVertexDominating(int v);
 
+    bool isDominated(int v) const;
+
     void printSet();
 
 private:

@@ -82,7 +82,25 @@ random
 chrono
 -
 
-/home/oaugusto/Workspace/DominatingSetHeuristics/src/Algorithms.cpp
-../include/Algorithms.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+ctime
+-
+dirent.h
+-
+cstring
+-
+memory
+-
+algorithm
+-
+include/Graph.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Graph.h
+include/Algorithms.h
 /home/oaugusto/Workspace/DominatingSetHeuristics/include/Algorithms.h
 

@@ -265,7 +265,28 @@ VertexSet greedyRandomizedAdaptativeSearchTSP(Graph* graph, int maxIterations) {
 }
 
 Neighborhood getAllNeighborsNotTabu(Graph* graph, VertexSet& v, TabuList& tabuList) {
+    Neighborhood neighbors;
 
+    for (int i = 0; i < v.getSetSize(); i++) {
+        if (v.isDominatingVertex(i)) {
+            VertexSet vt(graph, v.getVertexSet());
+            vt.unsetVertexDominating(i);
+
+            for (auto it = graph->begin(i); it != graph->end(i); it++) {
+                if (!vt.isDominated((*it).get_dest())) {
+                    vt.setVertexDominating((*it).get_dest());
+                }
+            }
+
+            if (vt.isDominatingSet()) {
+                if (!tabuList.isTabu(vt)) {
+                    neighbors.addNeighbor(vt);
+                }
+            }
+        }
+    }
+
+    return neighbors;
 }
 
 
@@ -273,13 +294,16 @@ VertexSet tabuSearchTSP(Graph* graph, VertexSet x, int maxTabuSize, int maxItera
 
     VertexSet sBest = x;
     VertexSet bestCandidate = x;
-    VertexSet oldBestCandidate = x;
-    TabuList tabuList(graph->get_num_v());
+    TabuList tabuList;
 
     while(maxIterations--) {
-        Neighborhood neighborhood = getAllNeighborsNotTabu(graph, bestCandidate, tabuList);
+        Neighborhood neighborhood = getAllNeighborsNotTabu(graph, sBest, tabuList);
+
+        if (neighborhood.isEmpty()) {
+            break;
+        }
+
         bestCandidate = neighborhood.getNeigbor(0);
-        oldBestCandidate = bestCandidate;
 
         for (int i = 0; i < neighborhood.getSize(); i++) {
             if (neighborhood.getNeigbor(i).getDominatingSize() < bestCandidate.getDominatingSize()) {
@@ -292,8 +316,11 @@ VertexSet tabuSearchTSP(Graph* graph, VertexSet x, int maxTabuSize, int maxItera
         }
 
         //set tabu
+        tabuList.setTabu(bestCandidate);
 
-        tabuList.decrement();
+        if (tabuList.size() >= maxTabuSize) {
+            tabuList.removeFirst();
+        }
     }
 
     return sBest;

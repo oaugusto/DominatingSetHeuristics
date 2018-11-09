@@ -4,27 +4,33 @@
 
 #include "../include/TabuList.h"
 
-void TabuList::setTabu(vector<int> tb, int time) {
-    for (int i = 0; i < tb.size(); i++) {
-        if (tb[i] != 0) {
-
-        }
-    }
+void TabuList::setTabu(VertexSet v) {
+    tabu.push_back(v);
 }
 
-void TabuList::decrement() {
-    unsigned long int size = tabu.size();
-    for (long int i = 0; i < size; i++) {
-        for (long int j = 0; j < size; j++) {
-            if (tabu[i][j] != 0) {
-                tabu[i][j]--;
+void TabuList::removeFirst() {
+    tabu.erase(tabu.begin());
+}
+
+bool TabuList::isTabu(VertexSet& v) {
+    bool isTabu = false;
+
+    for (VertexSet k : tabu) {
+        bool isEqual = true;
+
+        for (int i = 0; i < v.getSetSize(); i++) {
+            if (v.isDominatingVertex(i) != k.isDominatingVertex(i)) {
+                isEqual = false;
+                break;
             }
         }
+
+        if (isEqual) {
+            isTabu = true;
+        }
     }
+
+    return isTabu;
 }
 
-bool TabuList::isTabu(int a, int b) {
-    return (tabu[a][b] != 0);
-}
-
-int TabuList::size() const { return tabu.size(); }
+long TabuList::size() const { return tabu.size(); }

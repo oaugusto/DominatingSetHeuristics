@@ -15,25 +15,18 @@ class TabuList {
 public:
     TabuList() {}
 
-    TabuList(int size) {
-        tabu.resize(size);
-        for (int i = 0; i < tabu.size(); i++) {
-            tabu[i].resize(size, 0);
-        }
-    }
-
     ~TabuList() { }
 
-    void setTabu(vector<int> tb, int time);
+    void setTabu(VertexSet v);
 
-    void decrement();
+    void removeFirst();
 
-    bool isTabu(int a, int b);
+    bool isTabu(VertexSet& v);
 
-    int size() const;
+    long size() const;
 
 private:
-    vector<vector<int>> tabu;
+    vector<VertexSet> tabu;
 };
 
 #endif //DOMINATINGSET_TABULIST_H

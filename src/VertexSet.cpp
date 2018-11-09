@@ -58,4 +58,17 @@ void VertexSet::unsetVertexDominating(int v) {
     size--;
 }
 
+bool VertexSet::isDominated(int v) const {
+    bool dominated = false;
+
+    for (auto it = graph->begin(v); it != graph->end(v); it++) {
+        if (isDominatingVertex((*it).get_dest())) {
+            dominated = true;
+            break;
+        }
+    }
+
+    return dominated;
+}
+
 void VertexSet::printSet() {}

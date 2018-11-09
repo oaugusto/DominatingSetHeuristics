@@ -110,4 +110,16 @@ VertexSet greedyRandomizedConstruction(Graph *graph, float alpha);
  */
 VertexSet greedyRandomizedAdaptativeSearchTSP(Graph* graph, int maxIterations);
 
+
+/**
+ *
+ * @param graph
+ * @param x
+ * @param maxTabuSize
+ * @param maxIterations
+ * @return
+ */
+VertexSet tabuSearchTSP(Graph* graph, VertexSet x, int maxTabuSize, int maxIterations);
+
+
 #endif //DOMINATINGSET_ALGORITHMS_H

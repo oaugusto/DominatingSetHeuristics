@@ -65,23 +65,26 @@ int main(int argc, char* argv[]) {
 
         cout << "*******************************************************************" << endl;
         cout << "File: " + file << endl;
-        //*******************************************************************
+        //**************************************************************************
 
         begin = clock();
         VertexSet solution1 = greedy_classical(graph);
         VertexSet solution2 = greedyRandomizedConstruction(graph, 0.4);
-        VertexSet solution3 = greedyRandomizedAdaptativeSearchTSP(graph, 50);
-        end = clock();
+        VertexSet solution3 = greedyRandomizedAdaptativeSearchTSP(graph, 2);
+        VertexSet solution4 = tabuSearchTSP(graph, solution2, 50, 100);
 
         cout << "Solution1: " << "\t" << solution1.getDominatingSize() << (solution1.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
         cout << "Solution2: " << "\t" << solution2.getDominatingSize() << (solution2.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
         cout << "Solution3: " << "\t" << solution3.getDominatingSize() << (solution3.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
+        cout << "Solution4: " << "\t" << solution4.getDominatingSize() << (solution4.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
+
+        end = clock();
         elapsed_secs = double(end - begin);
         cout << "Time:" << elapsed_secs*1.0/CLOCKS_PER_SEC << endl;
 
         //cout << "*******************************************************************" << endl;
         //append time
-        //*******************************************************************
+        //****************************************************************************
 
         delete(graph);
 
