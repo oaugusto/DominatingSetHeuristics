@@ -48,10 +48,10 @@ RM = /opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oaugusto/workspace/DominatingSetHeuristics
+CMAKE_SOURCE_DIR = /home/oaugusto/Workspace/DominatingSetHeuristics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -231,6 +231,33 @@ src/Neighborhood.cpp.s:
 	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.s
 .PHONY : src/Neighborhood.cpp.s
 
+src/TabuList.o: src/TabuList.cpp.o
+
+.PHONY : src/TabuList.o
+
+# target to build an object file
+src/TabuList.cpp.o:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/TabuList.cpp.o
+.PHONY : src/TabuList.cpp.o
+
+src/TabuList.i: src/TabuList.cpp.i
+
+.PHONY : src/TabuList.i
+
+# target to preprocess a source file
+src/TabuList.cpp.i:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/TabuList.cpp.i
+.PHONY : src/TabuList.cpp.i
+
+src/TabuList.s: src/TabuList.cpp.s
+
+.PHONY : src/TabuList.s
+
+# target to generate assembly for a file
+src/TabuList.cpp.s:
+	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/src/TabuList.cpp.s
+.PHONY : src/TabuList.cpp.s
+
 src/VertexSet.o: src/VertexSet.cpp.o
 
 .PHONY : src/VertexSet.o
@@ -279,6 +306,9 @@ help:
 	@echo "... src/Neighborhood.o"
 	@echo "... src/Neighborhood.i"
 	@echo "... src/Neighborhood.s"
+	@echo "... src/TabuList.o"
+	@echo "... src/TabuList.i"
+	@echo "... src/TabuList.s"
 	@echo "... src/VertexSet.o"
 	@echo "... src/VertexSet.i"
 	@echo "... src/VertexSet.s"

@@ -9,6 +9,7 @@
 #include "Types.h"
 #include "VertexSet.h"
 #include "Neighborhood.h"
+#include "TabuList.h"
 #include <vector>
 #include <queue>
 #include <algorithm>
@@ -77,5 +78,36 @@ unsigned long greedy_vote(Graph* graph);
  */
 unsigned long greedy_vote_gr(Graph* graph);
 
+/**
+ *
+ * @param graph
+ * @param vs
+ * @return
+ */
+Neighborhood getNeighbors(Graph* graph, VertexSet& vs);
+
+/**
+ *
+ * @param graph
+ * @param vs
+ * @return
+ */
+VertexSet localSearch(Graph* graph, VertexSet& vs);
+
+/**
+ *
+ * @param graph
+ * @param alpha
+ * @return
+ */
+VertexSet greedyRandomizedConstruction(Graph *graph, float alpha);
+
+/**
+ *
+ * @param graph
+ * @param maxIterations
+ * @return
+ */
+VertexSet greedyRandomizedAdaptativeSearchTSP(Graph* graph, int maxIterations);
 
 #endif //DOMINATINGSET_ALGORITHMS_H

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
   "CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.o"
   "CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.o"
+  "CMakeFiles/DominatingSet.dir/src/TabuList.cpp.o"
   "DominatingSet.pdb"
   "DominatingSet"
 )

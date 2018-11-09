@@ -59,10 +59,10 @@ RM = /opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oaugusto/workspace/DominatingSetHeuristics
+CMAKE_SOURCE_DIR = /home/oaugusto/Workspace/DominatingSetHeuristics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/DominatingSet.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-
 CMakeFiles/DominatingSet.dir/all:
 	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/depend
 	$(MAKE) -f CMakeFiles/DominatingSet.dir/build.make CMakeFiles/DominatingSet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target DominatingSet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DominatingSet"
 .PHONY : CMakeFiles/DominatingSet.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/DominatingSet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DominatingSet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DominatingSet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/DominatingSet.dir/rule
 
 # Convenience name for target.

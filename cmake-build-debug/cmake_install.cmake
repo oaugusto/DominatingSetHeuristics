@@ -1,4 +1,4 @@
-# Install script for directory: /home/oaugusto/workspace/DominatingSetHeuristics
+# Install script for directory: /home/oaugusto/Workspace/DominatingSetHeuristics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

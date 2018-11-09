@@ -28,9 +28,11 @@ public:
 
     ~VertexSet() { }
 
-    double getSize() const;
+    int getSetSize() const;
 
-    void setSize(int s);
+    long getDominatingSize() const;
+
+    void setDominatingSize(int s);
 
     void setVertexSet(vector<int> r);
 
@@ -47,6 +49,8 @@ public:
     bool isDominatingVertex(int v) const;
 
     void setVertexDominating(int v);
+
+    void unsetVertexDominating(int v);
 
     void printSet();
 

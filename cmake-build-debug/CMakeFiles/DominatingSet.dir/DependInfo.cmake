@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oaugusto/workspace/DominatingSetHeuristics/main.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/main.cpp.o"
-  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Algorithms.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
-  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Graph.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
-  "/home/oaugusto/workspace/DominatingSetHeuristics/src/Neighborhood.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.o"
-  "/home/oaugusto/workspace/DominatingSetHeuristics/src/VertexSet.cpp" "/home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/main.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/main.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/src/Algorithms.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Algorithms.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/src/Graph.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Graph.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/src/Neighborhood.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/Neighborhood.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/src/TabuList.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/TabuList.cpp.o"
+  "/home/oaugusto/Workspace/DominatingSetHeuristics/src/VertexSet.cpp" "/home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug/CMakeFiles/DominatingSet.dir/src/VertexSet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

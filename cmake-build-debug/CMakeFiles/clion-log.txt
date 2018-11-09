@@ -1,4 +1,4 @@
-/opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oaugusto/workspace/DominatingSetHeuristics
+/opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oaugusto/Workspace/DominatingSetHeuristics
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/oaugusto/workspace/DominatingSetHeuristics/cmake-build-debug
+-- Build files have been written to: /home/oaugusto/Workspace/DominatingSetHeuristics/cmake-build-debug

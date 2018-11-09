@@ -68,14 +68,18 @@ int main(int argc, char* argv[]) {
         //*******************************************************************
 
         begin = clock();
-        VertexSet solution = greedy_classical(graph);
+        VertexSet solution1 = greedy_classical(graph);
+        VertexSet solution2 = greedyRandomizedConstruction(graph, 0.4);
+        VertexSet solution3 = greedyRandomizedAdaptativeSearchTSP(graph, 50);
         end = clock();
 
-        cout << "Solution: " << "\t" << solution.getSize() << "\t";
+        cout << "Solution1: " << "\t" << solution1.getDominatingSize() << (solution1.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
+        cout << "Solution2: " << "\t" << solution2.getDominatingSize() << (solution2.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
+        cout << "Solution3: " << "\t" << solution3.getDominatingSize() << (solution3.isDominatingSet()?" Dominating Set": " No dominating set") << endl;
         elapsed_secs = double(end - begin);
         cout << "Time:" << elapsed_secs*1.0/CLOCKS_PER_SEC << endl;
 
-        cout << "*******************************************************************" << endl;
+        //cout << "*******************************************************************" << endl;
         //append time
         //*******************************************************************
 

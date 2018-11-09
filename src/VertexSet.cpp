@@ -4,9 +4,11 @@
 
 #include "../include/VertexSet.h"
 
-double VertexSet::getSize() const { return size; }
+int VertexSet::getSetSize() const { return set.size(); }
 
-void VertexSet::setSize(int s) { size = s; }
+long VertexSet::getDominatingSize() const { return size; }
+
+void VertexSet::setDominatingSize(int s) { size = s; };
 
 void VertexSet::setVertexSet(vector<int> r) { set = r; }
 
@@ -43,12 +45,17 @@ bool VertexSet::isDominatingSet() {
 }
 
 bool VertexSet::isDominatingVertex(int v) const {
-    return (set[v])? true: false;
+    return set[v] != 0;
 }
 
 void VertexSet::setVertexDominating(int v) {
     set[v] = 1;
     size++;
+}
+
+void VertexSet::unsetVertexDominating(int v) {
+    set[v] = 0;
+    size--;
 }
 
 void VertexSet::printSet() {}

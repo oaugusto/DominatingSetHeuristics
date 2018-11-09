@@ -6,13 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Algorithms.h
+Graph.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Graph.h
+Types.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Types.h
+VertexSet.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/VertexSet.h
+Neighborhood.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Neighborhood.h
+TabuList.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/TabuList.h
+vector
+-
+queue
+-
+algorithm
+-
+functional
+-
+random
+-
+cstdlib
+-
+chrono
+-
+
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Edge.h
 string
 -
 Types.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Types.h
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Graph.h
 vector
 -
 list
@@ -28,21 +54,27 @@ iostream
 sstream
 -
 Types.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Types.h
 Edge.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Edge.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Edge.h
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Neighborhood.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Neighborhood.h
 VertexSet.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/VertexSet.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/VertexSet.h
 vector
 -
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Types.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/TabuList.h
+VertexSet.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/VertexSet.h
+vector
+-
 
-/home/oaugusto/workspace/DominatingSetHeuristics/include/VertexSet.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Types.h
+
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/VertexSet.h
 Graph.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Graph.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Graph.h
 algorithm
 -
 random
@@ -50,7 +82,7 @@ random
 chrono
 -
 
-/home/oaugusto/workspace/DominatingSetHeuristics/src/Neighborhood.cpp
-../include/Neighborhood.h
-/home/oaugusto/workspace/DominatingSetHeuristics/include/Neighborhood.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/src/Algorithms.cpp
+../include/Algorithms.h
+/home/oaugusto/Workspace/DominatingSetHeuristics/include/Algorithms.h
 
